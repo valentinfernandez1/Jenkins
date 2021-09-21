@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/persona', personaRoute);
 
 app.get('/', (req, res) => {
-  res.send("Hola Mundo");
+  res.send("probando");
 });
 
 app.listen(port, () => {
